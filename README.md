@@ -26,3 +26,7 @@ Settings → Pages → Deploy from a branch → main → /(root)
 
 ## Design
 The template intentionally keeps a similar informational structure to the old SCU Ski & Board site, but uses a cleaner mobile-friendly design.
+
+
+## Branded preview
+This version includes the official SCU Ski & Board logo and a red/cream/charcoal visual direction. No trip photos are required yet.

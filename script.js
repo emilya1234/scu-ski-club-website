@@ -5,7 +5,7 @@ function renderHeader() {
     <header class="site-header">
       <div class="wrap nav">
         <a class="brand" href="index.html">
-          <span class="brand-mark">SCU</span>
+          <img class="brand-logo" src="images/scu-ski-board-logo.png" alt="SCU Ski & Board logo">
           <span>${SITE_DATA.clubName}</span>
         </a>
         <button class="menu-button" aria-label="Open navigation" aria-expanded="false">Menu</button>
