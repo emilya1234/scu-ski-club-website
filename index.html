@@ -1,3 +1,65 @@
-index.html
-style.css
-script.js
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SCU Ski & Board</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main>
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content wrap">
+        <p class="eyebrow">Santa Clara University</p>
+        <h1>Ski & Board Club</h1>
+        <p class="hero-copy">Ski. Ride. Travel. Meet people.</p>
+        <div class="button-row">
+          <a class="button primary" href="trips.html">View trips</a>
+          <a class="button ghost" href="about.html">Learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap">
+      <div class="section-heading">
+        <p class="eyebrow">Welcome</p>
+        <h2>Get out of Santa Clara and onto the mountain.</h2>
+      </div>
+      <div class="two-col">
+        <p class="lead">We’re a community of skiers and snowboarders who organize mountain trips, social events, discounts, and more for SCU students.</p>
+        <div class="quick-links">
+          <a href="trips.html">Upcoming trips <span>→</span></a>
+          <a href="passes.html">Pass discounts <span>→</span></a>
+          <a href="leadership.html">Meet exec <span>→</span></a>
+          <a href="contact.html">Contact us <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="wrap">
+        <div class="section-heading">
+          <p class="eyebrow">This season</p>
+          <h2>Upcoming trips</h2>
+        </div>
+        <div id="home-trips" class="card-grid"></div>
+      </div>
+    </section>
+
+    <section class="photo-band">
+      <div class="wrap photo-band-content">
+        <h2>Want in?</h2>
+        <p>Follow along, watch for trip signups, and come meet us on campus.</p>
+        <a class="button light" href="contact.html">Join / contact</a>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="site-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
